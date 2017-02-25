@@ -3,8 +3,8 @@
                 **********************************
                 2nd Dec, 2016
 
-
                 VCS Egs: CVS, SVN, Git, Mercurial (Hg)
+
 
     GIT BASICS:
     -----------

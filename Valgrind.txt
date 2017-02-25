@@ -3,9 +3,7 @@
                 ***************************************************
                 13th Dec, 2016
 
-
                 Debugging Tools Egs: GDB, Valgrind
-
 
 
     Make C programs with memory leakage and with memory freed properly.
