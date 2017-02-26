@@ -1,6 +1,6 @@
 
-                Debugging and Checking Memory Leaks - Using Valgind
-                ***************************************************
+                Debugging and Checking Memory Leaks - Using Valgrind
+                ****************************************************
                 13th Dec, 2016
 
                 Debugging Tools Egs: GDB, Valgrind
