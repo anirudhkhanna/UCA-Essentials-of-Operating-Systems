@@ -5,22 +5,22 @@ class ThreadDemo implements Runnable {
 	
 	ThreadDemo(String name) {
 		threadName = name;
-		System.out.println("Creating " +  threadName);
+		System.out.println("Creating " + threadName);
 	}
 	
 	@Override
 	public void run() {
-		System.out.println("RUNNING " +  threadName);
+		System.out.println("RUNNING " + threadName);
 	}
 
 	/* A helper function to allocate thread and start() it */
 	public void myStart () {
-		System.out.println("Allocating " +  threadName );
+		System.out.println("Allocating " + threadName );
 		
 		t = new Thread(this, threadName);
 		t.start();
 	}
-};
+}
 
 public class ThreadClass {
 	public static void main(String args[]) {
@@ -32,4 +32,4 @@ public class ThreadClass {
 		ThreadDemo T2 = new ThreadDemo("Thread-2");
 		T2.myStart();
 	}
-};
+}

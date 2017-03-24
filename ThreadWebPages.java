@@ -16,12 +16,12 @@ class PageFetch implements Runnable {
 		
 		URLConnection connection = null;
 		try {
-		  connection =  new URL(myWebsite).openConnection();
-		  Scanner scanner = new Scanner(connection.getInputStream());
-		  scanner.useDelimiter("\\Z");
-		  content = scanner.next();
-		} catch ( Exception ex ) {
-		    ex.printStackTrace();
+			connection = new URL(myWebsite).openConnection();
+			Scanner scanner = new Scanner(connection.getInputStream());
+			scanner.useDelimiter("\\Z");
+			content = scanner.next();
+		} catch (Exception ex) {
+			ex.printStackTrace();
 		}
 		
 		System.out.println("content has src of " + myWebsite); // Print content string for source code
